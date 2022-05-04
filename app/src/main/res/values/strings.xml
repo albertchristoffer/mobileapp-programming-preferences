@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Shared Preferences</string>
     <string name="main_text"><b>Tryck på knappen för att ta dig till nästa screen.</b></string>
+    <string name="main_text2"><b>Skriv in vad du vill i inputfältet och tryck på knappen.<br></br> Det du skriver in kommer sedan visas på nästa screen.</b></string>
 </resources>
