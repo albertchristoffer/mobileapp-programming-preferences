@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         preferences = getSharedPreferences("preferences", MODE_PRIVATE);
         Log.d("==>", "Main Activity resumed!");
-        String name = preferences.getString("name", "Inget namn hittades.");
+        String name = preferences.getString("name", "");
         Log.d("==>", name);
         textViewName.setText(name);
     }
